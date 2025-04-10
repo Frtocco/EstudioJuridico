@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="flex flex-col items-center">
       <Navbar />
-      <div id="inicio" className="relative h-[47.5rem] w-full">
+      <div id="inicio" className="relative h-[40rem] w-full">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover"
           style={{ backgroundImage: `url(${justice})` }}
         ></div>
-        <div className="absolute inset-0 bg-black bg-opacity-75"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
         <div className="relative z-10 flex justify-center pt-20">
           <div className='flex flex-col'>
             <h1 className="text-white text-5xl font-bold"> Estudio jurídico Tocco y Asociados</h1>

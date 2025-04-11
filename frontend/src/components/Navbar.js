@@ -6,7 +6,7 @@ function Navbar() {
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
         };
     return (
-        <div className="flex items-center w-full navbar">
+        <div className="flex items-center w-full navbar mainColor">
             <div className="w-1/3">
             </div>
 

@@ -3,8 +3,8 @@ import profilePicture from '../images/profile.jpg'
 
 function AboutUs() {
   return (
-    <div className="flex items-center justify-center p-10">
-      <div className="w-full flex items-center">
+    <div className="flex items-center justify-center p-10 bg-[#e6e2d3] rounded-lg">
+      <div className="flex items-center ">
         <div className="w-3/5">
           <img 
             src="" 

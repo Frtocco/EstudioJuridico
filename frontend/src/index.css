@@ -24,3 +24,9 @@ code {
   color: #3b82f6; /* Azul de Tailwind (blue-500) */
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #e6e2d3;
+}
